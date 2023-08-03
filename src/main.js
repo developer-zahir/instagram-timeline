@@ -36,7 +36,7 @@ const show_post = () => {
                     
                 </div>
                 </div>
-                <div class="three-dot" onclick = deletePost(${index})>
+                <div class="three-dot" onclick = "deletePost(`${index}`)">
                 ❌
                 </div>
             </div>
